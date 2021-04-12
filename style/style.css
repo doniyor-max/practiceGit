@@ -28,9 +28,45 @@
  font-family: arial;
  font-size: 18px;
  margin-left:40px ;   
- 
+ transition: color 300ms;
 }
 .header__menu-link:hover{
-    color: #7f9bd8;
-    transition: 300ms;`
+    color:  #7f9bd8;
+    
 }
+.header__content-title{
+    font-size: 60px;
+    color: #2b6ccd;
+    text-transform: uppercase;
+    font-family: arial;
+}
+.header__content-text{
+    color: #2b6ccd;
+    font-size: 20px;
+    max-width: 600px;
+    width: 100%;
+    font-family: arial;
+    margin: 30px 0;
+}
+.header__content-btn{
+    max-width: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    padding: 20px 0;
+    color: white;
+    border-radius: 5px;
+}
+.header__content{
+   display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__top{
+    display: flex;
+    flex-direction: column;
+height: 100%;}
